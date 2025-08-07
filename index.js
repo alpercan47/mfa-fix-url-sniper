@@ -6,10 +6,10 @@ const tls = require('tls');
 process.on('uncaughtException', () => {});
 process.on('unhandledRejection', () => {});
 
-const listToken = "";        
-const guildId = "";          
-const password = "";         
-const channelId = "";        
+const listToken = "token";        
+const guildId = "sunucuid";          
+const password = "sifre";         
+const channelId = "kanalid";        
 
 let mfaToken = null;
 let savedTicket = null;
